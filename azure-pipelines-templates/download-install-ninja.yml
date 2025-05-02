@@ -1,6 +1,8 @@
 # Copyright (c) .NET Foundation and Contributors
 # See LICENSE file in the project root for full license information.
+name: Ninja
 
+on: [push, pull_request]
 parameters:
   - name: repoDirectory
     type: string
